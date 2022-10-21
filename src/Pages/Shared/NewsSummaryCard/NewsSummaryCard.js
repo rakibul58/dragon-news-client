@@ -30,6 +30,7 @@ const NewsSummaryCard = ({ news }) => {
                     {details.length>250
                     ?<span>{details.slice(0,250)+'...'} <Link to={`/news/${_id}`}>Read More</Link></span>
                     :<span>{details}</span>}
+                    
                 </Card.Text>
 
             </Card.Body>
